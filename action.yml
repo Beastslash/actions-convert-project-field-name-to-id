@@ -1,4 +1,4 @@
-name: "Convert project field name to ID"
+name: "Get project field ID from name"
 author: "Christian Toney"
 description: "Convert a project field name to an ID. You can use a personal access token (PAT) or GitHub app."
 inputs:
