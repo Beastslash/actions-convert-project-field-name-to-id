@@ -40,7 +40,7 @@ try {
     query getProjectNodeID($projectID: ID!, $fieldName: String!) {
       node(id: $projectID) {
         ... on ProjectV2 {
-          field(name: {_ilike: $fieldName}) {
+          field(name: $fieldName) {
             ... on ProjectV2Field {
               id
             }

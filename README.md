@@ -5,7 +5,7 @@ A GitHub action used to get a project field ID from its name.
 | Name | Description | Required? |
 | :- | :- | :- |
 | `github-project-id` | The project ID (not number) of the field. If you don't know the project ID, consider using [get-project-id-from-number](https://github.com/Beastslash/actions-convert-project-number-to-id). | Yes |
-| `github-project-field-name` | The name of the field that you want to get the ID of. Case-insensitive. | Yes |
+| `github-project-field-name` | The name of the field that you want to get the ID of. **Case-sensitive.** | Yes |
 | `github-app-id` | The app ID of the GitHub app that you are authenticating with. | Only if `github-personal-access-token` is not provided |
 | `github-app-private-key` | A private key of the GitHub app that you are authenticating with. | Only if `github-personal-access-token` is not provided |
 | `github-app-installation-id` | The ID of the installation that you are authenticating with.<br /><br />You can get this from checking the URL after hitting "Configure" at `https://github.com/{USER or ORGANIZATION}/{REPOSITORY}/settings/installations`. | Only if `github-personal-access-token` is not provided |
