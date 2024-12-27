@@ -55,7 +55,7 @@ try {
 
   const fieldID = response.node.field.id;
 
-  core.setOutput("github-project-field-id", fieldID);
+  core.setOutput("GITHUB_PROJECT_FIELD_ID", fieldID);
 
 } catch (error) {
 
